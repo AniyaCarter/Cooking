@@ -1,0 +1,89 @@
+/* main page */
+
+.front{
+  text-align: center
+}
+.title{
+  font-family: 'Monoton', cursive;
+}
+
+.space{
+  height:50px;
+}
+
+  ul.navbar{
+    font-family:'Monoton', cursive;
+    /* list-style-type: none;
+    margin: -10px;
+    padding: 85px;
+    overflow: hidden;
+    font-size:24px; */
+    /* text-align: center; */
+}
+li.l1{
+    /* float:left; */
+    /* padding-left: 50px; */
+
+}
+li a {
+    /* display: block; */
+    color: black;
+    /* text-align: center; */
+    /* text-decoration: none; */
+    margin-left: 20px;
+}
+a:hover {
+    background-color:;
+}
+
+/* recipes */
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color:rgb(64,224,208);
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: yellow;
+  font-size: 10px;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.chicken{
+  font-family: font-family: 'Limelight', cursive;
+}
+
+.FishonYURR{
+  /* font-size: 10px; */
+  text-align: left;
+}
+.two{
+  font-size: 11.5px;
+}
